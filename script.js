@@ -3,11 +3,11 @@ function myFunction() {
   var checkBox = document.getElementById("myCheck");
   var text = document.getElementById("ShowPass");
   if (checkBox.checked == true) {
-    text.innerHTML = "Hide Password 😊";
-    text.style.color = "brown";
+    text.innerHTML == "Hide Password 😊";
+    text.style.color == "brown";
   } else {
-    text.innerHTML = "Show Password 😡";
-    text.style.color = "";
+    text.innerHTML == "Show Password 😡";
+    text.style.color == "";
     return;
   }
 
